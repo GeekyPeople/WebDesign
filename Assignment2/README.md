@@ -1,1 +1,3 @@
 In all honesty, this class has been pretty simple. I think the toughest hurdle is combating my ADHD. I will say, so far this class has been more review than not. My coding 1 class covered a lot of the material within this class, so far I have been able to refine my ability to make a website rather than be introduced to how to do so, which I appreciate. Other than that, this class has been easy to digest, and the layout and organization is very well done. It has made going through the material easier. 
+
+Im not sure what I did to uncenter the nav, but if you could look at my code and help me fix that, that would be greatly appreciated. 
