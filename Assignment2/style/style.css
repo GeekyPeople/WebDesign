@@ -50,6 +50,7 @@ li {
  img {
         display: block;
         max-width: 100%;
+        margin: 0 auto;
     }
 nav{
  max-width: 100%;
