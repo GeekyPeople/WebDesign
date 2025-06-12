@@ -23,8 +23,8 @@ header{
 }
 li {
   list-style-type: none;
-  color: navy;
-  display: inline-block;
+  color: #000000;
+  
   font-family: Georgia, serif;
 }
 
@@ -62,14 +62,7 @@ nav{
 
         padding: 5px;
         text-align: center;
-    }
-
-    li {
-        list-style-type: none;
         display: inline-block;
-        margin: 0 10px;
-     padding: 5px 10px;
-     color:#000000
     }
 
     a {
