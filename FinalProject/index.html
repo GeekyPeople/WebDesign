@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+ 
+
+<head>
+    <meta charset="UTF-8">
+    <title>Dungeons and Dragons</title>
+    <link rel="stylesheet" href="style/style.css">
+     <link rel="stylesheet" href="https://www.w3schools.com/w3css/5/w3.css">
+     <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-colors-flat.css"> 
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Eagle+Lake&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-colors-2020.css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="A handmade website for ease into dungeons and dragons.">
+<link rel="icon" type="image/x-icon" href="images/favicon.ico">
+  </head>
+ 
+ 
+  <body>
+ 
+   <nav>
+ <ul>
+    <li><a class="navlink active" href="index.html">Home</a></li>
+    <li><a class="navlink" href="about.html">About</a></li>
+    <li> <a class="navlink" href="gallery.html" >Gallery</a></li>
+  </ul>
+</nav>
+   <main>
+<div class="w3-container w3-2020-amberglow">
+  <h1>Dungeons and Dragons</h1>
+  <h2> Taboo Tabletop game turned Worldwide Sensation </h2>
+</div>
+
+<img class="customimg" src="images/baldursgate.jpg" alt="Baldurs Gate Art">
+
+<div class="chapter">
+    <h3>What is Dungeons and Dragons?</h3>
+  <p>Dungeons and dragons is a table top role playing game. It started off as a game "just for nerds" as I often heard, to now being played by milions worldwide. Dungeons and Dragons is inspired by many different fantasy elements, from Lord of the Rings, to Star Wars. </p>  
+
+   <p>Dungeons and dragons involves world building, character creation, roleplaying, combat, dice rolls, and math (who knew math could be fun?).</p>
+</div>
+  
+<div class="chapter">
+<h3> Who can play dnd? </h3>
+   <p> 
+    Anyone and everyone can play dnd. From actors like Henry Cavil, to people like you and me, dungeons and dragons is customizable, and can fit any playstyle. All you need are a couple of freinds, a table, some dice, things to make a character, and time. 
+   </p>
+
+   <p>
+    Dungeons and dragons can feel daunting at first with how much information there is at first, but the more you play, the easier it gets. You don't need to be a master of all classes to be a player, you don't even need to know all the rules to be a dm. You can play from a large range of premade content, or you can make your own world and lore.
+   </p>
+</div>
+
+
+<div class="chapter">
+<h3> What is great about dnd?</h3>
+   <p> Dungeons and dragons has been a great bonding experience for my friends to be able to meet every week and explore different stories and settings. I have taken the role as Dungeon Master recently, walking my friends and their characters through their new jouney. </p>
+
+   <p> I would say that my favroite thing about dnd is the companionship you make along the way. You bond not only with your friends, but get to create characters who get to bond with other characters. You get to watch how the world and the other characters shape and grow them, from a new adventurer with a potentially dark past, to a nobel hero who has healed and grown since they started on their journey. </p>
+</div>
+
+<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
+  </main>
+   <footer class="footer">
+    <p>
+        &copy; 2025 Caitlyn Asmussen. All rights reserved.
+    </p>
+    <script>
+  document.getElementById("year").textContent = new Date().getFullYear();
+   let mybutton = document.getElementById("myBtn");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
+</footer>
+</body>
+
+</html>
